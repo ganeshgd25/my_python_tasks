@@ -128,16 +128,16 @@ print(f" updated dict : {book}")
 
 # book['key'] 	                         Access dictionary value
 # .split()                               Split string into list
-# [:]	                                   List slicing
+# [:]	                                 List slicing
 # .strip()	                             Remove spaces
-# .upper() / .lower()	                   Change case
+# .upper() / .lower()	                 Change case
 # .title() / .capitalize()               Format text
-# .replace()	                           Replace part of string
-# .find() / .index()	                   Search character
-# .startswith() / .endswith()	           Check beginning or end
+# .replace()	                         Replace part of string
+# .find() / .index()	                 Search character
+# .startswith() / .endswith()	         Check beginning or end
 # len(list)                              Get count
 # .update()                              Change value in dictionary
-# del	                                   Remove key from dictionary
+# del	                                 Remove key from dictionary
 
 
 # why you are using the 'f' in print statement 
