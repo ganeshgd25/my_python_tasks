@@ -1,0 +1,9 @@
+
+ Text analyasis reporttotal no of words 4 also characters no :16
+.longest word is : ganesh. and shortest word is : i
+The unique word is :{'hi', 'am', 'ganesh.', 'i'} and the total no of unique words are : 4
+
+ words frequencies :hi -> 1 time (s)
+i -> 1 time (s)
+am -> 1 time (s)
+ganesh. -> 1 time (s)
