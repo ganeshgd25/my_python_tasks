@@ -64,3 +64,6 @@ print(f" updated year is : {book['year']}")
 del book["author"]
 
 print(f" updated dict : {book}")
+print(f" updated dict : {book}")
+
+
