@@ -25,7 +25,7 @@ print(f"Title of the book is : {book ['title']} and author of the book is : {boo
 
 print(f"Title of the book is : {book ['title'].split()[0]}") 
     
-print(f"Author of the book is : { book['author'][:]}")
+print(f"Author of the book is : { book['author'][1:]}")
 
 print(f"intro for the book is : {book ['intro'].strip()}")
 
@@ -59,7 +59,7 @@ print(f"intro for the book is : {book ['intro'].endswith("**")}")
 
 book.update({"year":2026})
 
-print(f" updated year is : {book['year']}")
+print(f" updated year is : {book['year']}") 
 
 del book["author"]
 

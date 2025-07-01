@@ -16,7 +16,7 @@ str = ["apple","mango","kiwi","banana","khajur"]
 
 str.pop()
 print(str)
-str.remove("kiwi")             # if you want to remove anything in list so we dont remove to use of index no instead we can remove dierctly 
+str.remove("kiwi")            
 print(str)    
 
 print(str[2])
@@ -31,11 +31,15 @@ print(mix_lst)
 var = mix_lst[4]
 print(var[0].upper())
 
+print(mix_lst[4][0].upper())
+
+
+mix_lst = [1, "mango", 3, "apple", "ganesh", 4]
+
+print(mix_lst[4][0].upper())
+
 typ = mix_lst[2]
 print(type(typ))
-
-
-
 
 
 marks = [90,95,20,40,70]
@@ -64,3 +68,5 @@ print(r)                            #
 mix_lst = [1, "mango", 3, "apple", "ganesh", 4]
 
 print(mix_lst[4][0].upper())
+
+print(num*3)
