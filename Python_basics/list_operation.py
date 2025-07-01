@@ -57,5 +57,10 @@ print(sum(marks)/len(marks))
 
 print(sum(marks)//len(marks))     #avg
 
-r = range(5 , 10)
-print(r)
+r = range(5,10)
+print(r)                            # 
+
+
+mix_lst = [1, "mango", 3, "apple", "ganesh", 4]
+
+print(mix_lst[4][0].upper())
