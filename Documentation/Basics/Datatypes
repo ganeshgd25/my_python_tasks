@@ -1,5 +1,3 @@
-# my_python_tasks
-
 # Notes for Day_01 29jun-2025
 
 # Dictionary Declaration 
@@ -155,50 +153,3 @@ print(f" updated dict : {book}")
  easier to read and maintain 
  supports varaibles ,math functions call dierctly inside the {} .
 
-
-
-# Topics for 30/06/2025
-# list methods              # example
-list=[1, 2, 3]
-append()                    list.append()--- add to end
-insert()                    list.insert(1,10)-- Add index 
-pop()                       list.pop() -- remove last 
-remove()                    list.remove() -- remove specific
-sort()                      list.sort() -- sort ascending
-reverse()                   list.reverse()-- reverse order 
-clear()                     list.clear() -- Remove all
-index()                     list.index() -- find index of value
-count()                     list.count(3) -- count occurrences
-
-# Dictionary methods
-d = {"name": "Ganesh", "age": 25}
-get()               d.get("name")  --- Access   
-keys()              d.keys() ---- All keys
-values()            d.values() -- All values       
-items()             d.items() -- key value pairs
-update()            d.update({"age" :26}) --update values
-pop()               d.pop("name") ---Removed by key
-clear()             d.clear() -- clear all items 
-
-# useful built in functions 
-len()                          Length of object
-type()                         Type of varaible
-int(),str(),float()            Type conversion functions
-range()                        Create a sequence
-sum()                          sum of numbers
-max(),min()                    find max/min
-
-# Logical and comaparison operators
-comaparsion -- == ,!= ,<,>,<=,>=   ex a==b
-logical --         and,or,not
-
-# set methods 
-# s1={1,2,3}               
-# s2={3,4,5}
-
-add()                     s1.add(4) -- Add element
-remove()                  s1.remove(2)-- Remove element
-union()                   s1.union(s2) -- combine both
-intersection()            s1.intersection(s2) --- find common elements
-difference()              s1.difference(s2) -- not in s2
-clear()                   s1.clear() --- empty set 
