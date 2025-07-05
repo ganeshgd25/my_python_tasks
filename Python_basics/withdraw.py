@@ -1,5 +1,5 @@
 
-balance=10000
+balance=10000 
 withdraw_amount = int(input(" please Enter your withdraw amount : "))
 
 

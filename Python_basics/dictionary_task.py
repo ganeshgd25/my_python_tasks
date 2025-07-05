@@ -13,7 +13,7 @@
 book= {
 
     "title" : "python basics",
-    "author": ["Ganesh Deshpande", "Hansraj Deshpande", "Ashish more", "Rushi Shinde"],
+    "author": ["Ganesh Deshpande", "Hansraj Deshpande", "Ashish more", "Rushi Shinde","Hansraj Deshpande"],
     "year" : "2024",
     "intro": "this book is written on python basics ***",
     
@@ -31,8 +31,6 @@ print(f"intro for the book is : {book ['intro'].strip()}")
 
 print(f"intro for the book is : {book ['intro'].upper()}")
 
-print(f"intro for the book is : {book ['intro'].upper()}")
-
 print(f"intro for the book is : {book ['intro'].lower()}")
 
 print(f"intro for the book is : {book ['intro'].title()}")
@@ -41,11 +39,9 @@ print(f"intro for the book is : {book ['intro'].capitalize()}")
 
 print(f"intro for the book is : {book ['intro'].replace("basics","advance")}")
 
-print(f"intro for the book is : {book ['intro'].capitalize()}")
+print(f"intro for the book is : {book ['intro'].find("x")}")
 
-print(f"intro for the book is : {book ['intro'].find("w")}")
-
-print(f"intro for the book is : {book ['intro'].index("w")}")
+print(f"intro for the book is : {book ['intro'].index("w")}") 
 
 print(f"intro for the book is : {book ['intro'].startswith("that")}")
 
@@ -61,9 +57,19 @@ book.update({"year":2026})
 
 print(f" updated year is : {book['year']}") 
 
-del book["author"]
+#book["author"].remove("Hansraj Deshpande")
 
 print(f" updated dict : {book}")
+
+#del book["author"] [5] 
+
+#book ["author"].pop(5)
+
 print(f" updated dict : {book}")
 
 
+if "mahesh" in book["author"] :
+    book["author"].remove("mahesh")
+
+
+print(f" updated dict : {book}")

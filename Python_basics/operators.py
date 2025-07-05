@@ -76,3 +76,4 @@ print(9 in lst)
 
 print(6 not in lst)
 print(9 not in lst)
+

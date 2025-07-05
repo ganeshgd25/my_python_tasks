@@ -79,7 +79,7 @@ print(f"intro for the book is : {book ['intro'].index("w")}")
 # same as .find() but gives the error if char is not found
 # The operation is .index('char')
 # if the char is present it returns index
-# .index() raises an error if char is not found.
+# .index() raises an error if char is not found. (valu error)
 
 # check if intro starts with that 
 print(f"intro for the book is : {book ['intro'].startswith("that")}")
@@ -102,8 +102,8 @@ print(f"intro for the book is : {book ['author'].len()}")
 
 
 # update the year 
- book['year']=2025 
- print(f" updated year is : {book['year']}")
+book['year']=2025 
+print(f" updated year is : {book['year']}")
  
 # update the year
 book.update({"year":2026})
@@ -120,7 +120,7 @@ del book["author"]
 print(f" updated dict : {book}")
 
 # final output  --- 
- updated dict : {'title': 'python basics', 'year': 2026, 'intro': 'this book is written on python basics ***'}
+#updated dict : {'title': 'python basics', 'year': 2026, 'intro': 'this book is written on python basics ***'}
 
 # opearions                             # its use or purpose
 
@@ -140,16 +140,16 @@ print(f" updated dict : {book}")
 
 # why you are using the 'f' in print statement 
 # Ans is ---- 
-             f-string its allows the insert varaibles expression dierctly inside the curly braces{}
-             ex--- name="Gd"
-                   print(f"my name is {name}")
+           # f-string its allows the insert varaibles expression dierctly inside the curly braces{}
+            # ex--- name="Gd"
+             #      print(f"my name is {name}")
 # without f string old way 
-            ex --name ="gd"
-                 print("my name is " +name)
+            #ex --name ="gd"
+              #   print("my name is " +name)
                  # need to use + to join string
                  # be diffcult for many varaible
 # why use f string 
- clean syntax
- easier to read and maintain 
- supports varaibles ,math functions call dierctly inside the {} .
+# clean syntax
+# easier to read and maintain 
+# supports varaibles ,math functions call dierctly inside the {} .
 

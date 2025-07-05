@@ -2,7 +2,7 @@
 num = [1,2,3,4,5,2,1,5]
 
 num.append(7)   
-print(num)
+print(num) 
 
 num.insert(3,10)
 print(num)
@@ -16,12 +16,19 @@ str = ["apple","mango","kiwi","banana","khajur"]
 
 str.pop()
 print(str)
-str.remove("kiwi")            
-print(str)    
+
+#str.remove("kiwi")            
+#print(str)    
+
+if "kiwi" in str:
+    str.remove("kiwi")
+
+print(str)   
 
 print(str[2])
 
 lst = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+
 
 print(lst[0], lst[0][1]) 
 
@@ -41,12 +48,16 @@ print(mix_lst[4][0].upper())
 typ = mix_lst[2]
 print(type(typ))
 
-
 marks = [90,95,20,40,70]
+
+marks.reverse()
+print("reverse",marks) 
+
 marks.sort()
 print(marks)
+
 marks.reverse()
-print(marks)
+print("reverse",marks)
 
 print(marks.index(40))
 

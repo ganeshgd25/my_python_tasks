@@ -53,6 +53,23 @@
 
 # If failed in any subject (marks < 35): Print "Not eligible for Admission!"
 
+# Taking input and converting to integers
+# p, c, m = map(int, input("Enter your Physics, Chemistry, and Maths marks separated by space: ").split())
+
+# print("Your marks are:", p, c, m)
+
+# # First, check if the student has passed all subjects
+# if p >= 35 and c >= 35 and m >= 35:
+#     avg = (p + c + m) // 3  # Calculating average
+#     print("Average marks:", avg)
+    
+#     if avg >= 75:
+#         print("Congrats! Eligible for Scholarship Admission!")
+#     else:
+#         print("Eligible for Admission without Scholarship.")
+# else:
+#     print("Not eligible for Admission!")
+
 
 
 
@@ -72,15 +89,15 @@
 # If age is above 80 → Print: Too old for a new driving license.
 
 
-age = int(input("Please enter your age: "))
+# age = int(input("Please enter your age: "))
 
-if age < 0 or age > 120:
-    print("Invalid age entered..!")
-elif age <= 17:
-    print("Sorry, not eligible for a driving license..!")
-elif age <= 60:
-    print("Congrats! You are eligible for a driving license..!")
-elif age <= 80:
-    print("You are eligible, but you must provide a medical certificate..!")
-else:
-    print("Sorry, too old for a new driving license..!")
+# if age < 0 or age > 120:
+#     print("Invalid age entered..!")
+# elif age <= 17:
+#     print("Sorry, not eligible for a driving license..!")
+# elif age <= 60:
+#     print("Congrats! You are eligible for a driving license..!")
+# elif age <= 80:
+#     print("You are eligible, but you must provide a medical certificate..!")
+# else:
+#     print("Sorry, too old for a new driving license..!")

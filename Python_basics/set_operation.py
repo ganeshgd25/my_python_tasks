@@ -19,12 +19,11 @@ s1.remove(8)
 print(s1)
 
 
-print(s1.intersection(s2))
+print("intersection" ,s1.intersection(s2))
 
+print("union :" ,s1.union(s2))
 
-print(s1.union(s2))
-
-print(s1.difference(s2)) 
+print("Difference" ,s1.difference(s2)) 
 
 print(4 in s1)
 
