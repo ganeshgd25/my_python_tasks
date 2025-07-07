@@ -8,6 +8,8 @@ person={
 for key,value in person.items():
     print(key,value)
 
+
+
 for i in range(5) :
     print(i)
 else:

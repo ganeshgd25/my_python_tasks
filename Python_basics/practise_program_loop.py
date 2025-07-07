@@ -9,16 +9,16 @@ else:
     print("number not found")
 
 
-# user_database = ["ganesh","rahul","sneha","priya","ash","shanky"]
+user_database = ["ganesh","rahul","sneha","priya","ash","shanky"]
 
-# log_user = input("enter your username: ")
+log_user = input("enter your username: ")
 
-# for user in user_database:
-#     if log_user== user:
-#         print("Access Granted.")
-#         break
-# else:
-#     print("Access denied.!")
+for user in user_database:
+    if log_user== user:
+        print("Access Granted.")
+        break
+else:
+    print("Access denied.!")
 
 
 item_lst = [100,500,300,700,110,170]
