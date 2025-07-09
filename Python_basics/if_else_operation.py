@@ -1,47 +1,47 @@
 
-# age = int(input('Enter your age : '))
+age = int(input('Enter your age : '))
 
-# if age <= 12:
-#     print("you are child ")
+if age <= 12:
+    print("you are child ")
 
-# elif age >= 12 and age<= 19:
-#      print("you are teenager")
+elif age >= 12 and age<= 19:
+     print("you are teenager")
 
-# else:
-#      print("you are adult ")
+else:
+     print("you are adult ")
 
 
-# number = 10
+number = 10
 
-# if number >=5 :
-#      print("No is greater than 5.")
-# else:
-#      print("No is not greater than 5.")
+if number >=5 :
+     print("No is greater than 5.")
+else:
+     print("No is not greater than 5.")
 
-# age= int(input("plese Enter your age: "))
+age= int(input("plese Enter your age: "))
 
-# if age >=18 :
-#      card=input("Do you have voter card? yes/no ").lower()
-#      if card =="yes":
-#           print("You are eligibale for vote it.")
-#      elif card == "no":
-#           print("you are not eligiable for voting.")
-# else:
-#      print("you will be eligible for voting after complete your age 18.")
+if age >=18 :
+     card=input("Do you have voter card? yes/no ").lower()
+     if card =="yes":
+          print("You are eligibale for vote it.")
+     elif card == "no":
+          print("you are not eligiable for voting.")
+else:
+     print("you will be eligible for voting after complete your age 18.")
 
  
-# marks = int(input("plese enter your marks : "))
+marks = int(input("plese enter your marks : "))
 
-# print("your marks is : " ,marks)
+print("your marks is : " ,marks)
 
-# if marks>=81 and marks <=100:
-#      print("Congrats your grade is A ")
-# elif marks >=60 and marks<=80:
-#      print(" Congrats your grade is B")
-# elif marks >=35 and marks<=60:
-#      print("your grade is c")
-# else:
-#      print("sorry to say but you are fail.")
+if marks>=81 and marks <=100:
+     print("Congrats your grade is A ")
+elif marks >=60 and marks<=80:
+     print(" Congrats your grade is B")
+elif marks >=35 and marks<=60:
+     print("your grade is c")
+else:
+     print("sorry to say but you are fail.")
 
 
 lst =[4 , 6 , 8, 3 ,1, 9]

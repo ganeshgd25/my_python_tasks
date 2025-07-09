@@ -4,10 +4,10 @@
 
 number = int(input("please enter the no : "))
 
- if number %2 ==0 :
+if number %2 ==0 :
      print(f"{number } is even no!")
 
- else:
+else:
     print(f"{number}  is odd no !")
 
 
@@ -17,15 +17,15 @@ number = int(input("please enter the no : "))
 # # Problem:
 # # Ask the user to enter 3 numbers and print the largest one.
 
- a,b,c= map(int ,input("Enter number seprated by spaces: ").split())
+a,b,c= map(int ,input("Enter number seprated by spaces: ").split())
 print(a,b,c)
 
 if a>=b and a>=c :
     print("The largest no is :" ,a)
 
- elif b>=a and b>=c :
+elif b>=a and b>=c :
      print("The largest no is :" ,b)
- else:
+else:
      print("The largest no is :" ,c )
 
 
@@ -67,22 +67,23 @@ if a>=b and a>=c :
 
 # # If marks are < 50, print "Sorry, you are not eligible for admission."
 
-marks = int(input("plese enter your marks out of 100 : "))
+marks = int(input("Please enter your marks out of 100: "))
 
-if marks>=75 :
-     stream= input("please enter you want  to which strem (science/commerce) ").lower()
-    if stream == "science" :
-      print(" congrats you are eligiable for science  ")
-    elif stream == "commerce" :
-        print( " congrats you are eligiable for commerce")
-     else:
-         print(" invalid stream ")
-    
- elif marks >50 and marks<74:
-     print(" Congrtas you are eligiable for Art stream")
+if marks >= 75:
+    stream = input("Please enter which stream you want (science/commerce): ").lower()
+
+    if stream == "science":
+        print("Congrats! You are eligible for Science.")
+    elif stream == "commerce":
+        print("Congrats! You are eligible for Commerce.")
+    else:
+        print("Invalid stream.")
+
+elif marks > 50 and marks < 74:
+    print("Congrats! You are eligible for Arts stream.")
 
 else:
-     print("sorry you are not eligiable for admission")
+    print("Sorry, you are not eligible for admission.")
 
 
 
@@ -90,21 +91,19 @@ else:
 # # 📌 Problem Statement:
 # # Ask the user to enter a year (like 2024, 2025...) and check whether it is a leap year or not.
 
- year = int(input("please enter a year : "))
+year = int(input("Please enter a year: "))
 
- if year % 4 ==0 :
-
+if year % 4 == 0:
     if year % 100 == 0:
-
-       if year % 400 ==0:
-            print("its a leap year")
+        if year % 400 == 0:
+            print("It's a leap year.")
+        else:
+            print("It's not a leap year.")
+    else:
+        print("It's a leap year.")
 else:
-           print("its not a leap year ")
-     else:
-        print("its a leap year")
+    print("It's not a leap year.")
 
- else:
-     print("its not a leap year ")
 
 # # Task A6 – Student Fee Discount System
 # # 🧩 Problem Statement:
@@ -122,43 +121,46 @@ else:
 # # 6 to 8	40% discount	25% discount	15% discount	    No discount
 # # 9 to 12	50% discount	30% discount	20% discount	    No discount
 
+grade = int(input("Please enter your grade (1 to 12): "))
+percentage = int(input("Please enter your percentage (1 to 100): "))
 
- grade =int(input("please enter your grade in between 1 to 12: "))
- percentage= int (input("please enter your percentage in between 1 to 100 : "))
+print("You entered grade:", grade)
+print("You entered percentage:", percentage)
 
- print("You entered grade is : ", grade)
- print("You entered percentage is : ", percentage)
-
-
+# Validate input
 if grade < 1 or grade > 12 or percentage < 0 or percentage > 100:
-     print("Invalid grade or percentage entered.")
+    print("Invalid grade or percentage entered.")
 
-elif grade>=1 and grade <=5:
-   if percentage>=90:
-        print("congrats you are applicable for 30 percent discount.")
-    elif percentage >=75 and percentage<=89:
-        print("congrats you are applicable for 20 percent discount")
-    elif percentage >=50 and percentage<=74:
-        print("congrats you are applicable for 10 percent discount")
-   else: 
-       print("No discount ")
- elif grade>=6 and grade<=8:
-    if percentage>=90:
-        print("congrats you are applicable for 40 percent discount")
-     elif percentage>=75 and percentage<=89:
-         print("congrats you are applicable for 25 percent discount")
-     elif percentage>=50 and percentage<=74:
-        print("congrats you are applicable for 15 percent discount")
-   else:
-        print("No discount")
+# Grades 1 to 5
+elif grade >= 1 and grade <= 5:
+    if percentage >= 90:
+        print("Congrats! You are applicable for 30% discount.")
+    elif percentage >= 75 and percentage <= 89:
+        print("Congrats! You are applicable for 20% discount.")
+    elif percentage >= 50 and percentage <= 74:
+        print("Congrats! You are applicable for 10% discount.")
+    else:
+        print("No discount.")
 
-elif grade>=9 and grade<=12:
-   if percentage>=90:
-        print("congrats you are applicable for 50 percent discount")
-     elif percentage>=75 and percentage<=89:
-         print("congrats you are applicable for 30 percent discount")
-    elif percentage>=50 and percentage<=74:
-         print("congrats you are applicable for 20 percent discount")
+# Grades 6 to 8
+elif grade >= 6 and grade <= 8:
+    if percentage >= 90:
+        print("Congrats! You are applicable for 40% discount.")
+    elif percentage >= 75 and percentage <= 89:
+        print("Congrats! You are applicable for 25% discount.")
+    elif percentage >= 50 and percentage <= 74:
+        print("Congrats! You are applicable for 15% discount.")
+    else:
+        print("No discount.")
+
+# Grades 9 to 12
+elif grade >= 9 and grade <= 12:
+    if percentage >= 90:
+        print("Congrats! You are applicable for 50% discount.")
+    elif percentage >= 75 and percentage <= 89:
+        print("Congrats! You are applicable for 30% discount.")
+    elif percentage >= 50 and percentage <= 74:
+        print("Congrats! You are applicable for 20% discount.")
     else:
         print("No discount.")
 
@@ -178,9 +180,9 @@ elif grade>=9 and grade<=12:
 
 a,b,c = map(int , input("please Enter a three sides of traingle: ").split())
 
- print(f" you have enter sides of traingale :{a},{b},{c}")
+print(f" you have enter sides of traingale :{a},{b},{c}")
 
- if (a + b > c) and ( a + c > b) and (b + c > a):
+if (a + b > c) and ( a + c > b) and (b + c > a):
     if a == b == c:
         print("Traingle is equilteral.")
     elif a ==b or b ==c or a ==c:

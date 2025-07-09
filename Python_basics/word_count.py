@@ -1,7 +1,7 @@
 
 sentense = "python is a easy programming language and python is very powerfull programming language "
 
-word = sentense.split()
+word = sentense.split() 
 
 count = {}
 

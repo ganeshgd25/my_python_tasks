@@ -4,7 +4,7 @@ num =[1,2,3,4,5]
 for i in num:
     if i==3 :
         print("found")
-        break
+        break 
 else:
     print("number not found")
 
@@ -14,7 +14,7 @@ user_database = ["ganesh","rahul","sneha","priya","ash","shanky"]
 log_user = input("enter your username: ")
 
 for user in user_database:
-    if log_user== user:
+    if log_user == user:
         print("Access Granted.")
         break
 else:
@@ -43,3 +43,5 @@ for i in range(10):
         over_speed+=1
 
 print("speed limit crossed bikes no: ",over_speed)       
+
+
