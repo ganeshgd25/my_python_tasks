@@ -62,5 +62,28 @@ def my_function5():
 my_function5()
 
 
+# postional only argument 
+
+def my_function6(x , /) :
+   print(x) 
+my_function6(5)                 # in postional only we can pass only postion if try x=5 then give error 
+
+
+# keyword only argument
+
+def my_function7(*, a) :
+    print(a)
+
+my_function7(a=9)            # in keyword only we can pass value a=9 if pass only 9 then give error
+
+
+# postional and keyword arguments
+
+def my_function8(a , / , * , b) :
+    print(a,b)
+                                            
+my_function8(10,b=19)                       # both mixed postional and keyword only postion also passed and keyword also
+
+
 
         
