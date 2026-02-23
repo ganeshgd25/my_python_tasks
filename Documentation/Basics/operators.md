@@ -90,10 +90,11 @@ lst =[1,2,3,6,4,8]
 
 
 # Returns true if the value exists in the sequence
-print(6 in lst)
-print(9 in lst)
+print(6 in lst)  -- o/p -- True
+print(9 in lst)  -- o/p false
 
 # Return True if the value does not exits in sequence.
 print(6 not in lst)
 print(9 not in lst)
+
 
